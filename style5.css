@@ -1,0 +1,110 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Courier New', Courier, monospace;
+ box-sizing: border-box;
+}
+body{
+  background-color: rgb(175, 230, 248);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.container{
+  background-color:white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius:10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+
+}
+.container h2{
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 20px;
+  font-size: 2rem;
+  padding: 20px;
+
+}
+.container input{
+   font-size: 1rem;
+   margin: 15px;
+   border: none;
+   font-weight: lighter;
+  
+
+}
+.user{
+  
+    font-size: 20px;
+    color: #000;
+}
+ 
+
+
+
+.user1{
+  font-size:20px ;
+  align-self: flex-start;
+  margin-bottom:150px ;
+  color: #000;
+  margin-top: 20%;
+}
+.forgot{
+  text-align: center;
+  padding: 10px;
+  padding-left: 80px;
+  color: #000;
+ margin-top: 50px;
+}
+
+.login{
+  border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    display: block;
+    margin: 2rem auto;
+    
+
+}
+    
+    
+.para {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image1 i {
+  font-size: 2rem;
+  color: #3b5998;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-top: 20%;
+
+}
+.fac{
+  font: 1rem;
+ color: blue;
+}
+
+.image1 i:hover {
+  color: #2d4373;
+}
+.para:hover {
+  color: #8d68c5;
+}
+
+.login:hover{
+  color: red;
+}
